@@ -1,15 +1,17 @@
- 
-            const heading=React.createElement("div",{id :"heading"},[
-                React.createElement("div",{id:"child1"},[
-                    React.createElement("h1",{},"this is h1"),
-                        React.createElement("h2",{},"this is h2")
-                    ]),
-                    React.createElement("div",{id:"child2"},[
-                        React.createElement("h1",{},"this is h1"),
-                        React.createElement("h2",{},"this is h2")
-                    ])
-                ]
-            );
-            const root=ReactDOM.createRoot(document.getElementById("root"));
-            root.render(heading);
-     
+ import React from "react";
+ import ReactDOM from 'react-dom/client';
+import { jsx } from "react/jsx-runtime";
+import Header from "./src/components/Header";
+import Body from "./src/components/Body";
+
+     const AppLayout= () =>{
+        return (
+            <div className="app">
+                <Header/>
+                <Body/>
+            </div>
+        )
+     };
+
+     const root = ReactDOM.createRoot(document.getElementById("root"));
+     root.render(<AppLayout/>)

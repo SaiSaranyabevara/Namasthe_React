@@ -1,3 +1,74 @@
-#heading {
-    color: aquamarine;
+.header {
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+
+.logo{
+     width: 100px;
+}
+.nav-item{
+    padding: 0px 20px;
+}
+
+.nav-item > ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav-item > ul > li{
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.filter{
+    padding: 10px;
+    display: flex;
+   
+}
+.filter-btn{
+     cursor: pointer;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 50px;
+
+}
+.res-card{
+    padding:0px 5px;
+    margin: 5px;
+    width: 250px;
+    background-color: gainsboro;
+ 
+}
+.res-card:hover
+{
+     border: 1px solid black;
+     cursor: pointer;
+}
+
+.res-logo {
+    width: 100%;
+}
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+      padding: 10px;
+      
+}
+.shimmer-cards{
+    width: 200px;
+  margin: 10px;
+    height: 200px;
+    background-color: rgb(215, 215, 215);
+}
+
+.login{
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.search{
+    padding: 5px 15px;
 }
