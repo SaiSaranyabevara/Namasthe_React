@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "this is namasthe react",
   "scripts": {
-    "start":"parcel index.html",
-    "build":"parcel build index.html",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -25,7 +25,9 @@
     "parcel": "^2.15.4"
   },
   "dependencies": {
+    "nodemon": "^3.1.10",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^6.27.0"
   }
 }

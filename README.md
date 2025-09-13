@@ -80,6 +80,11 @@
       *  - Contact
       
 
+//react Hooks
+       1.useState()-superpowerful state variable in react 
+       2.useeffect
+
+
 
 use effect have two parameters 1.call back function, 2.dependecy array
 
@@ -97,3 +102,5 @@ useeffect( ( ) => {
 useeffect( ( ) => {
        console.log("useeffect);
 },[someelement change])
+
+
