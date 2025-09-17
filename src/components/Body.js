@@ -11,6 +11,8 @@ const Body = () => {
   const [searchText, setSearchText] = useState("");
   const [filteredRestaurant, setFilteredRestaurant] = useState([]);
 
+// const RestaurentCardPromoted=withPromotedLabel(RestaurentCard);
+
   const onlineStatus = useOnlineStatus();
 
   // ✅ Initialize filteredRestaurant when listOfRestaurant is fetched
@@ -65,6 +67,7 @@ const Body = () => {
               key={restaurant.info.id}
               to={"/restaurants/" + restaurant.info.id}
             >
+              {/* {restaurant.data.promoted ?( <RestaurentCardPromoted resData={restaurant}/> ): ( <RestaurentCard resData={restaurant} />)} */}
               <RestaurentCard resData={restaurant} />
             </Link>
           ))

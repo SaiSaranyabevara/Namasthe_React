@@ -18,6 +18,17 @@ const RestaurentCard = (props) =>{
     )
 }
 
+// export const withPromotedLabel= (RestaurentCard) =>{
+//     return () => {
+//         return (
+//             <div>
+//                 <label>Promoted</label>
+//                 <RestaurentCard/>
+//             </div>
+//         );
+//     };
+// }
+
 // const RestaurentCard= ({ resData }) => {
 //   const { cuisines, avgRating, sla, name } = resData?.info || {};
   

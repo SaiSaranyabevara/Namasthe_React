@@ -145,7 +145,7 @@
 } 
 
  /* Modern Shimmer */
-        .modern-shimmer-container {
+         .modern-shimmer-container {
           max-width: 800px;
           margin: 0 auto;
           background: white;
@@ -228,10 +228,10 @@
           100% {
             background-position: 200% 0;
           }
-        }
+        } 
 
         /* Responsive */
-        @media (max-width: 768px) {
+         @media (max-width: 768px) {
           .modern-res-card {
             width: 100%;
             max-width: 400px;
@@ -260,18 +260,7 @@
           }
         }
 
-/* .shimmer-container{
-    display: flex;
-    flex-wrap: wrap;
-      padding: 10px;
-      
-}
-.shimmer-cards{
-    width: 250px;
-  margin: 10px;
-    height: 400px;
-    background-color: rgb(215, 215, 215);
-} */
+
 
 .login{
     padding: 0px 10px;
@@ -294,4 +283,7 @@
     width: 75px;
     height: 75px;
     border-radius: 25%;
-}
+} 
+
+
+

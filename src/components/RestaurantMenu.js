@@ -24,7 +24,7 @@ const card =
 
 const itemCards = getItemCards(card);
 
-
+console.log( resInfo?.data?.cards?.[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards);
   return (
     <div className="resCardInfo">
       <h1>{name}</h1>
